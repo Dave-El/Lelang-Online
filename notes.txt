@@ -1,0 +1,36 @@
+// index petugas
+                <?php
+					if($level==1)
+					{
+						echo "Mode Monitoring";
+				?>
+				<?php
+					}
+					else
+					{
+				?>
+                <?php
+					}
+				?>
+
+
+                                    <?php
+										if($level!=2)
+										{
+											echo "Mode Monitoring";
+										}
+										else
+										{
+									?>
+                                    <?php
+										}
+									?>
+
+
+                        <?php
+							if($level==2)
+							{
+						?>
+                        <?php
+							}
+						?>
